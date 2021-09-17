@@ -1,0 +1,26 @@
+name: xylophone_flutter
+description: Simple Xylophone App built with flutter using "audioplayers 0.20.1" package by "fireslime.xyz".
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  audioplayers: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - assets/
